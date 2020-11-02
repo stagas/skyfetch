@@ -39,9 +39,9 @@ That's it, no bundlers to install, no complicated configurations. Just an html f
 
 Thanks to these awesome projects:
 
-[Skypack.dev](https://www.skypack.dev/)
-[rollup](https://rollupjs.org/)
-[rollup-plugin-skypack](https://github.com/yj01jung/rollup-plugin-skypack)
-[rollup-plugin-url-resolve](https://github.com/mjackson/rollup-plugin-url-resolve)
+- [Skypack.dev](https://www.skypack.dev/)
+- [rollup](https://rollupjs.org/)
+- [rollup-plugin-skypack](https://github.com/yj01jung/rollup-plugin-skypack)
+- [rollup-plugin-url-resolve](https://github.com/mjackson/rollup-plugin-url-resolve)
 
 ### License MIT
