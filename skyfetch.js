@@ -32,12 +32,17 @@ options:
 }
 
 let optimize = false
+let format = 'es'
 let file = mod + '.js'
 for (const arg of args) {
   switch (arg) {
     case '--pinned':
     case '-p':
       optimize = true
+      break
+    case '--format':
+    case '-f':
+      format = process.argv[process.argv.indexOf(arg)+1]
       break
     case '--output':
     case '--out':
@@ -93,7 +98,9 @@ const inputOptions = {
 
 const outputOptions = {
   file,
-  format: 'es'
+  format,
+  name: mod,
+  exports: 'named'
 }
 
 async function build() {
