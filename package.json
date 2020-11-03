@@ -1,9 +1,16 @@
 {
   "name": "skyfetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rollup + skypack + fetch a module from npm to a single es6-ready file",
   "bin": "skyfetch.js",
-  "keywords": ["es6","esm","module","bundle","rollup","skypack"],
+  "keywords": [
+    "es6",
+    "esm",
+    "module",
+    "bundle",
+    "rollup",
+    "skypack"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
