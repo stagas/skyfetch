@@ -1,29 +1,32 @@
 {
-  "name": "skyfetch",
-  "version": "1.0.1",
-  "description": "rollup + skypack + fetch a module from npm to a single es6-ready file",
-  "bin": "skyfetch.js",
+  "name": "jsfetch",
+  "version": "1.1.0",
+  "description": "fetch an npm module from various CDNs to a single es6-ready file",
+  "bin": "jsfetch.js",
   "keywords": [
     "es6",
     "esm",
     "module",
     "bundle",
     "rollup",
-    "skypack"
+    "skypack",
+    "jsdelivr",
+    "unpkg",
+    "wzrd",
+    "browserify"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:stagas/skyfetch.git"
+    "url": "git@github.com:stagas/jsfetch.git"
   },
   "author": "stagas",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "^9.0.1",
     "rollup": "^2.33.1",
-    "rollup-plugin-skypack": "^1.0.0",
+    "rollup-plugin-cjs-es": "^1.0.1",
     "rollup-plugin-url-resolve": "^0.1.1"
   }
 }
