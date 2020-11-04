@@ -19,7 +19,7 @@ const mod = process.argv.slice(2).filter(x => x[0] !== '-').pop()
 if (!mod || mod === '--help' || mod === '-h' || opts['--help'] || opts['-h']) {
   console.log(
 `\
-usage: jsfetch [opts] <npm-module-name>
+usage: skyfetch [opts] <npm-module-name>
 
 options:
  -o, --output <file>    Output filename (default: <npm-module-name>.js)
@@ -113,8 +113,8 @@ Try --help for a list of options.\nValid sources are: skypack, unpkg')
   return
 }
 
-const jsfetch = {
-  name: 'jsfetch',
+const skyfetch = {
+  name: 'skyfetch',
   resolveId (source) {
     if (source === input) {
       return source
@@ -131,7 +131,7 @@ const jsfetch = {
 
 const inputOptions = {
   input,
-  plugins: [jsfetch, ...plugins, resolve()],
+  plugins: [skyfetch, ...plugins, resolve()],
 }
 
 const outputOptions = {

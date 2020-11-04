@@ -1,4 +1,4 @@
-# jsfetch
+# skyfetch
 
 es6 + rollup + skypack + jsdelivr + unpkg + wzrd.in
 
@@ -7,9 +7,9 @@ fetch an npm module from various CDNs to a single es6-ready file
 ## example
 
 ```sh
-$ npm install -g jsfetch
+$ npm install -g skyfetch
 ...
-$ jsfetch tinygradient
+$ skyfetch tinygradient
 Fetching npm module from skypack: tinygradient
 https://cdn.skypack.dev/tinygradient
 https://cdn.skypack.dev/-/tinygradient@v1.1.2-tKse5ssJIN1EsUBizhu4/dist=es2020/tinygradient.js
